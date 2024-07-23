@@ -1,4 +1,8 @@
-const InviteButton = ({ imageSrc }) => {
+interface InviteButtonProps {
+    imageSrc: string;
+}
+
+const InviteButton: React.FC<InviteButtonProps> = ({ imageSrc }) => {
     return (
         <div className="w-auto h-auto flex flex-row bg-gray-900 my-2 text-gray-600 justify-between mx-4 rounded-md px-2 py-2 items-center">
             <div>
