@@ -10,11 +10,11 @@ function App() {
     <div className='flex h-full w-full justify-center'>
       <div className='h-full w-96 bg-black flex flex-col justify-center text-white'>
             <Hero/>
-             <InviteButton/>
-              <InviteButton/>
-               <InviteButton/>
-            <BottomMenu/>
-            <InviteButton/>
+             <InviteButton imageSrc="./logo/telegram.svg" />
+             <InviteButton imageSrc="./logo/whatsapp.svg" />
+             <InviteButton imageSrc="./logo/linkedin.svg" /> 
+            <BottomMenu />
+            <InviteButton imageSrc="./logo/youtube.svg" />
       </div>
     </div>
     

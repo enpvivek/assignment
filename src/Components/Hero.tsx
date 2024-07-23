@@ -8,7 +8,7 @@ const Hero = () => {
       </div>
       {/* Logo */}
       <div>
-        <img src='./hero.svg' className="rounded-md m-2" alt="Vite logo" />
+        <img src='./newHero.jpg' className="rounded-md  object-contain" alt="Vite logo" />
       </div>
       {/* Tagline */}
       <div className="flex flex-col items-center justify-center text-center p-4 rounded-lg text-lg">
